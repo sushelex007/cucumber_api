@@ -1,8 +1,8 @@
 package stepDefinition;
 import static io.restassured.RestAssured.given;
 import java.io.IOException;
+import org.junit.*;
 
-import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -19,8 +19,8 @@ import resources.TestUtilities;
 public class PlaceAPI extends TestUtilities
 {
 	TestDataBuild data = new TestDataBuild();
-	RequestSpecification req;
-	ResponseSpecification res;
+	static RequestSpecification req;
+	static ResponseSpecification res;
 	Response response;
 	JsonPath jp;
 	String place_id;
@@ -43,7 +43,8 @@ public class PlaceAPI extends TestUtilities
 		APIValidatePlaceId place_id = APIValidatePlaceId.valueOf(res);
 		response = req.queryParam("place_id", post_place_id).when().get(place_id.getResource()).then().log().all().spec(resSpec).extract().response();
 		get_name = getJsonPathValue("name");
-		Assert.assertEquals(get_name, name, "name not matched");
+	//	Assert.assertEquals(get_name, name, "name not matched");
+		Assert.assertEquals(get_name, name);
 	}
 	
 	public String getJsonPathValue(String key)

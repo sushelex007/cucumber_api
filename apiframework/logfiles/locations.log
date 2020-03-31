@@ -12,7 +12,7 @@ Multiparts:		<none>
 Body:
 {"accuracy":50,"name":"sushil","phone_number":"(+91) 983 893 3937","address":"laxmipur","types":["shoe park","shop"],"website":"http://google.com","language":"hindi","location":{"lat":-38.383494,"lng":33.427362}}
 HTTP/1.1 200 OK
-Date: Tue, 31 Mar 2020 05:47:35 GMT
+Date: Tue, 31 Mar 2020 11:01:52 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -25,17 +25,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "d541ed5f64c2d305bc1096ecda4d995e",
+    "place_id": "63f7937b4ad1443da3e363d04ef51e84",
     "scope": "APP",
-    "reference": "a88b8d0ab6d532cb5d83667ef29f47b3a88b8d0ab6d532cb5d83667ef29f47b3",
-    "id": "a88b8d0ab6d532cb5d83667ef29f47b3"
+    "reference": "c8adfdbb024bdc254eb2e2022ac9242fc8adfdbb024bdc254eb2e2022ac9242f",
+    "id": "c8adfdbb024bdc254eb2e2022ac9242f"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d541ed5f64c2d305bc1096ecda4d995e
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=63f7937b4ad1443da3e363d04ef51e84
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=d541ed5f64c2d305bc1096ecda4d995e
+				place_id=63f7937b4ad1443da3e363d04ef51e84
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -45,7 +45,250 @@ Multiparts:		<none>
 Body:
 {"accuracy":50,"name":"sushil","phone_number":"(+91) 983 893 3937","address":"laxmipur","types":["shoe park","shop"],"website":"http://google.com","language":"hindi","location":{"lat":-38.383494,"lng":33.427362}}
 HTTP/1.1 200 OK
-Date: Tue, 31 Mar 2020 05:47:36 GMT
+Date: Tue, 31 Mar 2020 11:01:53 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 227
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "sushil",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "laxmipur",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "hindi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"accuracy":50,"name":"jaydeep","phone_number":"(+91) 983 893 3937","address":"Nasik","types":["shoe park","shop"],"website":"http://google.com","language":"Marathi","location":{"lat":-38.383494,"lng":33.427362}}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2020 11:01:53 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "4a24a1e61985fd536deb03204c479407",
+    "scope": "APP",
+    "reference": "076f14afe1a9826882ca3780c5798f0b076f14afe1a9826882ca3780c5798f0b",
+    "id": "076f14afe1a9826882ca3780c5798f0b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4a24a1e61985fd536deb03204c479407
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4a24a1e61985fd536deb03204c479407
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"accuracy":50,"name":"jaydeep","phone_number":"(+91) 983 893 3937","address":"Nasik","types":["shoe park","shop"],"website":"http://google.com","language":"Marathi","location":{"lat":-38.383494,"lng":33.427362}}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2020 11:01:54 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 227
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "jaydeep",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Nasik",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "Marathi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"accuracy":50,"name":"sushil","phone_number":"(+91) 983 893 3937","address":"laxmipur","types":["shoe park","shop"],"website":"http://google.com","language":"hindi","location":{"lat":-38.383494,"lng":33.427362}}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2020 11:01:54 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "60f35a263213cca453b642a8c2dc8b41",
+    "scope": "APP",
+    "reference": "d71170a86929ad583ffd4c14c2c534bdd71170a86929ad583ffd4c14c2c534bd",
+    "id": "d71170a86929ad583ffd4c14c2c534bd"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=60f35a263213cca453b642a8c2dc8b41
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=60f35a263213cca453b642a8c2dc8b41
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"accuracy":50,"name":"sushil","phone_number":"(+91) 983 893 3937","address":"laxmipur","types":["shoe park","shop"],"website":"http://google.com","language":"hindi","location":{"lat":-38.383494,"lng":33.427362}}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2020 11:01:54 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 227
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "sushil",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "laxmipur",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "hindi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"place_id":"60f35a263213cca453b642a8c2dc8b41"
+}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2020 11:01:54 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"accuracy":50,"name":"sushil","phone_number":"(+91) 983 893 3937","address":"laxmipur","types":["shoe park","shop"],"website":"http://google.com","language":"hindi","location":{"lat":-38.383494,"lng":33.427362}}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2020 11:01:55 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "69f68d560ca32c40058a88527e88de8b",
+    "scope": "APP",
+    "reference": "b50a17c4d6fb9d3f7834f49814a12e36b50a17c4d6fb9d3f7834f49814a12e36",
+    "id": "b50a17c4d6fb9d3f7834f49814a12e36"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=69f68d560ca32c40058a88527e88de8b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=69f68d560ca32c40058a88527e88de8b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"accuracy":50,"name":"sushil","phone_number":"(+91) 983 893 3937","address":"laxmipur","types":["shoe park","shop"],"website":"http://google.com","language":"hindi","location":{"lat":-38.383494,"lng":33.427362}}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2020 11:01:55 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
