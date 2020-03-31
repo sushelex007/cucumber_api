@@ -48,4 +48,12 @@ public class TestDataBuild
 		loc.setWebsite("http://google.com");
 		return loc;
 	}
+	
+	public String getDeletePayload(String place_id)
+	{
+		return "{\n" + 
+				"\"place_id\":\""+place_id+"\"\n" + 
+				"}\n" + 
+				"";
+	}
 }

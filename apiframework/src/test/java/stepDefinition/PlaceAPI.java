@@ -24,9 +24,16 @@ public class PlaceAPI extends TestUtilities
 	Response response;
 	JsonPath jp;
 	String place_id;
-	String post_place_id;
+	
 	String get_name;
 	String post_name;
+	static String post_place_id;
+	@Given("Delete place payload")
+	public void delete_place_payload() 
+	{
+		req = given().log().all().spec(reqSpec).when().body(data.getDeletePayload(post_place_id));
+				
+	}
 
 	
 	@Then("verify place_id created maps to {string} using {string}")
@@ -50,7 +57,7 @@ public class PlaceAPI extends TestUtilities
 	@When("user calls {string} with {string} http method")
 	public void user_calls_with_http_method(String resource, String method) 
 	{
-		APIResources resources = APIResources.valueOf(resource);
+		APIValidatePlaceId resources = APIValidatePlaceId.valueOf(resource);
 	    System.out.println(resources.getResource());
 	    if(method.equalsIgnoreCase("post"))
 	    {
